@@ -223,3 +223,61 @@ nav a {
 .watch-btn:hover {
     opacity: 0.85;
 }
+
+/* Interview Section */
+.interview-section {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+/* Interview Card */
+.interview-card {
+    background: #f8f8f8;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+/* Cover Image */
+.interview-cover {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+}
+
+/* Interview Title */
+.interview-title {
+    font-size: 28px;
+    margin-top: 25px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+/* Description */
+.interview-description {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #444;
+    margin-top: 15px;
+    padding: 0 10px;
+}
+
+/* Button */
+.watch-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 28px;
+    background: #b89b5e;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.watch-btn:hover {
+    opacity: 0.8;
+}
