@@ -224,60 +224,71 @@ nav a {
     opacity: 0.85;
 }
 
-/* Interview Section */
+    /* INTERVIEW SECTION */
 .interview-section {
+    padding: 70px 20px;
     text-align: center;
-    padding: 60px 20px;
 }
 
-/* Interview Card */
+/* CARD */
 .interview-card {
-    background: #f8f8f8;
-    border-radius: 20px;
-    padding: 20px;
-    max-width: 700px;
+    max-width: 850px;
     margin: auto;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    background: #f9f9f9;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
 }
 
-/* Cover Image */
+/* IMAGE */
 .interview-cover {
     width: 100%;
-    max-width: 100%;
-    height: auto;
-    border-radius: 15px;
     display: block;
-    margin: auto;
 }
 
-/* Interview Title */
+/* CONTENT */
+.interview-content {
+    padding: 30px;
+}
+
+/* TITLE */
 .interview-title {
-    font-size: 28px;
-    margin-top: 25px;
+    font-size: 32px;
+    margin-bottom: 15px;
     font-family: 'Cormorant Garamond', serif;
 }
 
-/* Description */
+/* TEXT */
 .interview-description {
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.8;
     color: #444;
-    margin-top: 15px;
-    padding: 0 10px;
+    max-width: 700px;
+    margin: auto;
 }
 
-/* Button */
+/* BUTTON */
 .watch-btn {
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 25px;
     padding: 12px 28px;
     background: #b89b5e;
     color: white;
     text-decoration: none;
     border-radius: 30px;
-    transition: 0.3s;
+    font-size: 16px;
 }
 
-.watch-btn:hover {
-    opacity: 0.8;
+/* MOBILE FIX */
+@media (max-width: 768px) {
+
+    .interview-title {
+        font-size: 24px;
+    }
+
+    .interview-description {
+        font-size: 15px;
+    }
+
 }
+
