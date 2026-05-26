@@ -243,11 +243,18 @@ nav a {
 }
 
 /* IMAGE */
-.interview-cover {
-    width: 100%;
+ .interview-cover {
+    width: 90%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-bottom: 20px;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
-
 /* CONTENT */
 .interview-content {
     padding: 30px;
